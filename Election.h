@@ -1,7 +1,7 @@
 /*
-Name: [Your Name]
-Registration: [Your Registration]
-Section: [Your Section]
+Name:Raza Ali Murtaza
+Registration: L1F25BSCS0615
+Section: C6
 Assignment: One (Part Two - Election.h)
 
 Problem Statement:

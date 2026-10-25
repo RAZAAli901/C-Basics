@@ -1,7 +1,7 @@
 /*
-Name: [Your Name]
-Registration: [Your Registration]
-Section: [Your Section]
+Name: Raza Ali Murtaza 
+Registration: L1f25BSCS0615
+Section: C6
 Assignment: One (Part Two - main.cpp)
 
 Problem Statement:

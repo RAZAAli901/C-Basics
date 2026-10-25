@@ -21,7 +21,7 @@ using namespace std;
 
 // 3. Class Member Function Definitions
 
-// ---------- Private helper functions ----------
+// Private helper functions
 
 void Election::createArrays(int parties)
 {
@@ -216,7 +216,7 @@ void Election::writeGraphToFile(ofstream& outputFile) const
     delete[] sortedIndexes;
 }
 
-// ---------- Constructors and destructor ----------
+// Constructors and destructor
 
 Election::Election()
 {
@@ -315,8 +315,7 @@ Election::~Election()
     deleteArrays();
 }
 
-// ---------- Setters ----------
-
+// Setters 
 void Election::setTotalVotes(int votes)
 {
     if (votes < 0)
@@ -345,8 +344,7 @@ void Election::setVotesOfParty(int partyId, int votes)
     voteCounts[partyId - 1] = votes;
 }
 
-// ---------- Getters ----------
-
+// Getters
 int Election::getTotalVotes() const
 {
     return totalVotes;
@@ -409,7 +407,7 @@ const int* Election::getVoteCountsAddress() const
     return voteCounts;
 }
 
-// ---------- Other member functions ----------
+// Other member functions 
 
 bool Election::isValidPartyId(int partyId) const
 {

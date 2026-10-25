@@ -16,7 +16,7 @@ use std::string or vectors, and main must not contain cin, cout or math.
 
 #include "Election.h"
 
-// 5. Main Function
+// Main Function
 int main()
 {
     printHeading("1. Constructors (default, parameterized, default argument, overloaded)");
